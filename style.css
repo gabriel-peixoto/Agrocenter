@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+
+#banner{
+    background-image:url("images/Frente-loja4.JPG");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+}
+
+ul{
+
+    list-style-type: none;
+    text-decoration: none;
+}
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    border-radius: 6%;
+    padding: 10px;
+ 
+       
+}
+
+.menu{
+    text-align: right;
+
+}
+
+li:hover{
+    background-color: rgb(201, 197, 197);
+}
+
+.texto-sup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+  
+}
+
+.texto-sup2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    font-size: 20px;
+    padding: 7px;
+    
+
+}
+
+h1{
+    text-align: center;
+    color: #1E2A4C;
+    /* color: white;
+    background-color: #1E2A4C; */
+    
+
+}
+
+.mapa{
+margin-top: 60px;
+margin-left: 200px;
+height: 250px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(201, 197, 197);
+    color: white;
+    height: 50px;
+}
+
+form{
+    float: right;
+    margin-right: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top: 80px;
+}
+
+.img{
+    width: 500px;
+    height: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+        
+}
+
+.box-contato{
+    padding: 50px;
+    height: 550px;
+    position: relative;
+}
+
+.box-prodser{
+    padding: 50px;
+    height: 500px;
+}
+
+.box-empresa{
+    padding: 50px;
+    position: relative;
+    height: 500px;
+}
+
+
+label{
+    color: #1E2A4C;
+    font-size: 18px;
+    width: 250px;
+
+}
+input{
+    border: none;
+    /* width: 200px; */
+    height: 30px;
+    background-color: rgb(216, 215, 215);
+    position: relative;
+}
+
+.labels{
+    position: absolute;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+#texto{
+    background-color: rgb(216, 215, 215);
+    margin-top: 5px;
+    border: none;
+
+}
+
+.botao{
+    margin-top: 10px;
+    background-color: #1E2A4C;
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+
+}
+
+.texto-empresa{
+    display: inline-block;
+    width: 1000px
+}
+
+.img-empresa{
+    float: right;
+    margin-right: 100px;
+    width: 600px;
+    padding: 0;
+    margin-top: 0;
+}
